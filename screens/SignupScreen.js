@@ -29,30 +29,30 @@ const SignupScreen = ({ navigation }) => {
                 labelValue={password}
                 onChangeText={(userPassword) => setPassword(userPassword)}
                 placeholderText="Password"
-                iconType="link"
+                iconType="lock"
                 secureTextEntry={true}
             />
                 <FormInput
                 labelValue={confirmPassword}
                 onChangeText={(confirmUserPassword) => setConfirmPassword(confirmUserPassword)}
                 placeholderText="Confirm Password"
-                iconType="link"
+                iconType="lock"
                 secureTextEntry={true}
             />
             <FormButton
-                buttonTitle="Sign In"
+                buttonTitle="Sign up"
                 onPress={() => alert('signin')}
             />
 
             <SocialButton
-                buttonTitle="Signin with Facebook"
+                buttonTitle="Signup with Facebook"
                 btnType="facebook"
                 color="blue"
                 backgroundColor="lightgray"
                 onPress={() => {}}
             />
                  <SocialButton
-                buttonTitle="Signin with Google"
+                buttonTitle="Signup with Google"
                 btnType="google"
                 color="green"
                 backgroundColor="lightgray"
