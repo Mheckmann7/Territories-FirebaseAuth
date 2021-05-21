@@ -12,6 +12,7 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		24A2DE9070C1F86575BDD632 /* libPods-authApplication-authApplicationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BFA14A4CE0475D77C5C423 /* libPods-authApplication-authApplicationTests.a */; };
+		5F5980292658743200AD3938 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F5980282658743200AD3938 /* GoogleService-Info.plist */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		A0170AA4400B0E0AE578FC13 /* libPods-authApplication.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C18A954D4F2EC526B9932BE2 /* libPods-authApplication.a */; };
 /* End PBXBuildFile section */
@@ -38,6 +39,7 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = authApplication/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = authApplication/main.m; sourceTree = "<group>"; };
 		28BFA14A4CE0475D77C5C423 /* libPods-authApplication-authApplicationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-authApplication-authApplicationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F5980282658743200AD3938 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = authApplication/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		911623E6ED388F28708A2849 /* Pods-authApplication-authApplicationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-authApplication-authApplicationTests.debug.xcconfig"; path = "Target Support Files/Pods-authApplication-authApplicationTests/Pods-authApplication-authApplicationTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C0F10FB78BA71575654DE7C7 /* Pods-authApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-authApplication.debug.xcconfig"; path = "Target Support Files/Pods-authApplication/Pods-authApplication.debug.xcconfig"; sourceTree = "<group>"; };
@@ -101,7 +103,6 @@
 			children = (
 			);
 			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -124,6 +125,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				5F5980282658743200AD3938 /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* authApplication */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* authApplicationTests */,
@@ -154,7 +156,6 @@
 				911623E6ED388F28708A2849 /* Pods-authApplication-authApplicationTests.debug.xcconfig */,
 				CBD8C7D7014C54617687890A /* Pods-authApplication-authApplicationTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -255,6 +256,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				5F5980292658743200AD3938 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

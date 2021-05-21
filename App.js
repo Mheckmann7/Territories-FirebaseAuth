@@ -1,6 +1,10 @@
 import React from 'react';
 import Providers from './navigation';
 
+import * as firebase from '@react-native-firebase/app';
+
+// firebase.initializeApp();
+
 const App = () => {
 
     return <Providers /> 
