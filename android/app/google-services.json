@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "335043908453",
+    "project_id": "territories-88673",
+    "storage_bucket": "territories-88673.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335043908453:android:cfe937b769fc152303078c",
+        "android_client_info": {
+          "package_name": "com.territories"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335043908453-ho9668ptg8hcp66etf8nj20dhdq5ahjl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5sEuZRjGF5ko56mPXglI-doh2Q49DwiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335043908453-ho9668ptg8hcp66etf8nj20dhdq5ahjl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "335043908453-mpjl6eru40dr5ncqgeq6orbse9ldog64.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.territories"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
