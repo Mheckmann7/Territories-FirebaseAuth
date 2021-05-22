@@ -1,11 +1,12 @@
-import React, { useContext, useState, useEffect, Text } from 'react';
+import React, { useContext, useState, useEffect, Text, View } from 'react';
 
 
 import { NavigationContainer } from '@react-navigation/native';
+import HomeScreen from '../screens/HomeScreen';
 
 const AppStack = () => {
     return (
-        <Text>App Stack</Text>
+        <HomeScreen /> 
       )
 };
 

@@ -1,10 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { View, Text, Button, StyleSheet, Image, TouchableOpacity } from 'react-native';
 import FormButton from '../components/FormButton';
+import { AuthContext } from '../navigation/AuthProvider';
 
 const HomeScreen = () => {
+    const {user, logout} = useContext(AuthContext)
     return (
-        <Text style={styles.container}>Home Screen</Text>
+        <View style={styles.container}>
+            <Text>Home Screen {user.id}</Text>
+            <FormButton buttonTitle='Logout' onPress={() => logout()} />
+        </View>
     )
 }
 
@@ -13,6 +18,6 @@ export default HomeScreen;
 const styles = StyleSheet.create({
     container: {
         justifyContent: 'center',
-        alignItems: 'center '
+        alignItems: 'center'
     }
 })
