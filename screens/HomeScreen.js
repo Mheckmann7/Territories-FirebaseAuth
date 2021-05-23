@@ -7,7 +7,7 @@ const HomeScreen = () => {
     const {user, logout} = useContext(AuthContext)
     return (
         <View style={styles.container}>
-            <Text>Home Screen {user.id}</Text>
+            <Text>Home Screen {user.uid}</Text>
             <FormButton buttonTitle='Logout' onPress={() => logout()} />
         </View>
     )
@@ -18,6 +18,7 @@ export default HomeScreen;
 const styles = StyleSheet.create({
     container: {
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
+        flex: 1 
     }
 })
