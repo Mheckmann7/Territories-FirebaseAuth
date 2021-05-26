@@ -58,18 +58,7 @@ export function DrawerContent(props) {
                             /> 
                             )}
                             label="Home"
-                            // onPress={() => {props.navigation.navigate('Home') }}
-                        />
-                        <DrawerItem
-                            icon={({ color, size }) => (
-                            <Icon
-                            name="user"
-                            color={color}
-                            size={size}
-                            /> 
-                            )}
-                            label="Profile"
-                            // onPress={() => {props.navigation.navigate('Profile') }}
+                            onPress={() => {props.navigation.navigate('HomeScreen') }}
                         />
                         <DrawerItem
                             icon={({ color, size }) => (
@@ -82,6 +71,18 @@ export function DrawerContent(props) {
                             label="Map"
                             onPress={() => {props.navigation.navigate('Map') }}
                         />
+                        <DrawerItem
+                            icon={({ color, size }) => (
+                            <Icon
+                            name="user"
+                            color={color}
+                            size={size}
+                            /> 
+                            )}
+                            label="Profile"
+                            onPress={() => {props.navigation.navigate('Profile') }}
+                        />
+      
                                 <DrawerItem
                             icon={({ color, size }) => (
                             <Icon

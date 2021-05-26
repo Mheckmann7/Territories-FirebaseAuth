@@ -106,7 +106,7 @@ const HomeStackScreen = ({ navigation }) => (
           options={{
           title: 'Territories',
           headerLeft: () => (
-            <Icon.Button name="md-menu" size={25} backgroundColor='#E94F46'
+            <Icon.Button name="bars" size={25} backgroundColor='#E94F46'
               onPress={() => navigation.openDrawer()}></Icon.Button>
         )
         }} />
