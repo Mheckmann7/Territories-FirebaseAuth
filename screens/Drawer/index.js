@@ -80,7 +80,7 @@ export function DrawerContent(props) {
                             /> 
                             )}
                             label="Map"
-                            // onPress={() => {props.navigation.navigate('Map') }}
+                            onPress={() => {props.navigation.navigate('Map') }}
                         />
                                 <DrawerItem
                             icon={({ color, size }) => (
